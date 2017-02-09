@@ -16,13 +16,13 @@ For legacy versions, please refer to [at15/lnmp](https://github.com/at15/lnmp) r
 ## Include
 
 - Ubuntu 16.04 LTS
-- Nginx 1.10.1 `ppa:nginx/stable`
+- Nginx 1.10.2 `ppa:nginx/stable`
 - MySQL 5.7
 - PHP 7.1 `ppa:ondrej/php`
 - Composer `/usr/local/bin/composer`
-- Redis 3.07 `ppa:chris-lea/redis-server`
+- Redis 3.2.7 `ppa:chris-lea/redis-server`
 - Phpmyadmin 4.5.4.1 (nginx config is `/etc/nginx/conf.d/phpmyadmin.conf`)
-- Node.js 6.x LTS (nvm)
+- Node.js 6.9.5 LTS (nvm)
 
 ## Requirement
 
