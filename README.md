@@ -94,6 +94,7 @@ end
 
 - `git clone git@github.com:at15/lnmp.git`
 - `cd lnmp`
+- Add `config.ssh.insert_key = false` in your Vagrantfile
 - `vagrant up` it will run the provision using Ansible. see [site.yml](site.yml) for detail
 - ssh into the vm and run `util/clean.sh` to clean up apt stuff before you package the box
 - `vagrant package` to build the new box
