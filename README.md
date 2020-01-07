@@ -15,18 +15,18 @@ For legacy versions, please refer to [at15/lnmp](https://github.com/at15/lnmp) r
 
 ## Include
 
-- Ubuntu 16.04 LTS
-- Nginx 1.10.2 `ppa:nginx/stable`
+- Ubuntu 18.04 LTS
+- Nginx 1.16.1 `ppa:nginx/stable`
 - MySQL 5.7
-- PHP 7.1 `ppa:ondrej/php`
+- PHP 7.3 `ppa:ondrej/php`
 - Composer `/usr/local/bin/composer`
-- Redis 3.2.7 `ppa:chris-lea/redis-server`
+- Redis 5.0.7 `ppa:chris-lea/redis-server`
 - Phpmyadmin 4.5.4.1 (nginx config is `/etc/nginx/conf.d/phpmyadmin.conf`)
-- Node.js 6.9.5 LTS (nvm)
+- Node.js 12.14.0 LTS (nvm)
 
 ## Requirement
 
-- Virtualbox 4.3+ (5.0 is tested, the guest addtion is working on windows, Mac user may
+- Virtualbox 6.0+ (6.1 is tested, the guest addtion is working on windows, Mac user may
 need to update TODO: the issue for brew cask installed vbox)
 - Vagrant latest
 - Host OS: Fedora 25, Ubuntu 16.10, Windows 10 (not tested but should work)

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "try to update the base box, ubuntu 16.04 LTS"
+echo "try to update the base box, ubuntu 18.04 LTS"
 vagrant box update
 echo "destroy the old box"
 vagrant destroy -f

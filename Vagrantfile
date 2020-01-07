@@ -3,8 +3,8 @@
 
 Vagrant.configure(2) do |config|
 
-  # the base box is ubuntu 16.04 LTS
-  config.vm.box = "bento/ubuntu-16.04"
+  # the base box is ubuntu 18.04 LTS
+  config.vm.box = "bento/ubuntu-18.04"
 
   # need to check update
   config.vm.box_check_update = true
