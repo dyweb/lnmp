@@ -4,12 +4,12 @@ Vagrant box for PHP projects
 For PHP5.X see [legacy/ubuntu-14.04-PHP5](https://github.com/dyweb/miemieda/tree/legacy/ubuntu-14.04-PHP5) branch.
 The [feature/php7](https://github.com/dyweb/miemieda/tree/feature/php7) branch is also deprecated, PHP7 is now in the master branch.
 
-- [Vagrant Cloud](https://atlas.hashicorp.com/dyweb/boxes/miemieda)
+- [Vagrant Cloud](https://app.vagrantup.com/dyweb/boxes/miemieda)
 
 ## Legacy Releases
 
-- [Vagrant Cloud PHP7.x](https://atlas.hashicorp.com/at15/boxes/lnmp7/)
-- [Vagrant Cloud PHP5.x](https://atlas.hashicorp.com/at15/boxes/lnmp/)
+- [Vagrant Cloud PHP7.x](https://app.vagrantup.com/at15/boxes/lnmp7/)
+- [Vagrant Cloud PHP5.x](https://app.vagrantup.com/at15/boxes/lnmp/)
 
 For legacy versions, please refer to [at15/lnmp](https://github.com/at15/lnmp) repository.
 
@@ -98,7 +98,7 @@ end
 - `vagrant up` it will run the provision using Ansible. see [site.yml](site.yml) for detail
 - ssh into the vm and run `util/clean.sh` to clean up apt stuff before you package the box
 - `vagrant package` to build the new box
-- upload it to [Atlas](https://atlas.hashicorp.com/boxes/search?utm_source=vagrantcloud.com&vagrantcloud=1)
+- upload it to [Vagrant Cloud](https://app.vagrantup.com/boxes/search)
 
 ## Acknowledgement
 
