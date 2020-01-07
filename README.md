@@ -21,7 +21,7 @@ For legacy versions, please refer to [at15/lnmp](https://github.com/at15/lnmp) r
 - PHP 7.3 `ppa:ondrej/php`
 - Composer `/usr/local/bin/composer`
 - Redis 5.0.7 `ppa:chris-lea/redis-server`
-- Phpmyadmin 4.5.4.1 (nginx config is `/etc/nginx/conf.d/phpmyadmin.conf`)
+- Phpmyadmin 4.6.6.5 (nginx config is `/etc/nginx/conf.d/phpmyadmin.conf`)
 - Node.js 12.14.0 LTS (nvm)
 
 ## Requirement
