@@ -63,10 +63,12 @@
     apt: name={{ item }} state=present
     # TODO: enable error report
     with_items:
+      - php7.3-cli
       - php7.3-fpm
       - php7.3-zip
       - php7.3-redis
       - php7.3-xdebug
+      - php7.3-mbstring
       - php7.3-curl
       - php7.3-gd
       - php7.3-intl
